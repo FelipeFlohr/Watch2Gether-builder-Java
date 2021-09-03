@@ -1,11 +1,11 @@
 package seleniumrelated;
 
 import org.openqa.selenium.By;
-import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+import javax.swing.*;
 import java.time.Duration;
 
 public class W2GPageRelated {
@@ -57,7 +57,8 @@ public class W2GPageRelated {
             videoAddBtn.click();
         }
         catch(org.openqa.selenium.TimeoutException e){
-            System.out.println("---VIDEO NOT FOUND: "+url+" | Skipping...");
+            String message = "Video "+url+" not found.";
+            JOptionPane.showMessageDialog(null, message, "Video not found", JOptionPane.ERROR_MESSAGE);
         }
 
     }
