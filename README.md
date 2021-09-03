@@ -1,6 +1,6 @@
 # Watch2Gether builder
 
-Watch2Gether builder is a Java-made Web Browser automation to add videos to [Watch2Gether](https://w2g.tv/), a platform for watching videos simultaneously with your friends.
+Watch2Gether builder is a Java-made web browser automation to add videos to [Watch2Gether](https://w2g.tv/), a platform for watching videos simultaneously with your friends.
 
 ## Requirements:
 - [Google Chrome](https://www.google.com/intl/en-US/chrome/) for using the Chrome's driver;
