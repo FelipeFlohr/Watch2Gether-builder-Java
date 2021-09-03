@@ -1,3 +1,5 @@
+package seleniumrelated;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
@@ -11,7 +13,7 @@ public class W2GPageRelated {
     WebDriver driver;
     String username;
 
-    W2GPageRelated(WebDriver driver, String username){
+    public W2GPageRelated(WebDriver driver, String username){
         this.driver = driver;
         this.username = username;
     }
@@ -26,9 +28,7 @@ public class W2GPageRelated {
 
         // Will enter the username
         var usernameInput = this.driver.findElement(new By.ByXPath("//*[@id=\"intro-nickname\"]"));
-        for (int i = 0; i <= 10; i++) { // Deletes the random generated username
-            usernameInput.sendKeys(Keys.BACK_SPACE);
-        }
+        usernameInput.clear();
         usernameInput.sendKeys(this.username); // Sets the username to the chosen one
 
         // Will click the "Enter room" button

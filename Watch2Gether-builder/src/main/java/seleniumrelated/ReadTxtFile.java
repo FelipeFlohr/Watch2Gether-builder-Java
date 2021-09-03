@@ -1,3 +1,5 @@
+package seleniumrelated;
+
 import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
@@ -7,7 +9,7 @@ public class ReadTxtFile {
 
     String txtFilePath;
 
-    ReadTxtFile(String txtFilePath){
+    public ReadTxtFile(String txtFilePath){
         this.txtFilePath = txtFilePath;
     }
 
