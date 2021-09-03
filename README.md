@@ -9,4 +9,13 @@ Watch2Gether builder is a Java-made Web Browser automation to add videos to [Wat
 
 ## How to use:
 
-**W.I.P**
+1. Create a .txt file containing the links of each video you want. Example: 
+```
+link1
+link2
+link3
+link4
+```
+2. Open the program and select the .txt file;
+3. Insert the username for Watch2Gether;
+4. Press the button and wait for the playlist to be build.
