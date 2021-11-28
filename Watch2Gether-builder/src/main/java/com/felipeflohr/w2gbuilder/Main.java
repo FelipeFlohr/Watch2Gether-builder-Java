@@ -1,11 +1,10 @@
 package com.felipeflohr.w2gbuilder;
 
-import com.felipeflohr.w2gbuilder.guirelated.Frame;
+import com.felipeflohr.w2gbuilder.swing.MainFrame;
 
 public class Main {
 
     public static void main(String[] args){
-        new Frame();
+        new MainFrame();
     }
-
 }
