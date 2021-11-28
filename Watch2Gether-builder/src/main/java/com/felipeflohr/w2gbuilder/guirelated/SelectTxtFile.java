@@ -1,4 +1,4 @@
-package guirelated;
+package com.felipeflohr.w2gbuilder.guirelated;
 
 import javax.swing.*;
 import javax.swing.filechooser.FileNameExtensionFilter;

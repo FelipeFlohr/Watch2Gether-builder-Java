@@ -1,4 +1,4 @@
-package seleniumrelated;
+package com.felipeflohr.w2gbuilder.seleniumrelated;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;

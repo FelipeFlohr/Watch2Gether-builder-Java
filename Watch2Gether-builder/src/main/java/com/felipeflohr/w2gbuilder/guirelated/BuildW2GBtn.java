@@ -1,6 +1,6 @@
-package guirelated;
+package com.felipeflohr.w2gbuilder.guirelated;
 
-import seleniumrelated.BuildW2G;
+import com.felipeflohr.w2gbuilder.seleniumrelated.BuildW2G;
 
 import javax.swing.JButton;
 import javax.swing.JFrame;

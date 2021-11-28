@@ -1,4 +1,4 @@
-package seleniumrelated;
+package com.felipeflohr.w2gbuilder.seleniumrelated;
 
 import java.io.File;
 import java.io.IOException;

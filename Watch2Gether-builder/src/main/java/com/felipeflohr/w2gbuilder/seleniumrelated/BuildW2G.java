@@ -1,11 +1,8 @@
-package seleniumrelated;
+package com.felipeflohr.w2gbuilder.seleniumrelated;
 
-import guirelated.Frame;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import seleniumrelated.ReadTxtFile;
-import seleniumrelated.W2GPageRelated;
 
 import java.io.File;
 import java.io.IOException;
